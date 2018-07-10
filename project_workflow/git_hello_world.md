@@ -5,5 +5,3 @@ Spencer was here! (also from the UAV)
 Drone was here.
 
 Will was here.
-
-
