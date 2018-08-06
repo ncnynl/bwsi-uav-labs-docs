@@ -1,0 +1,12 @@
+#!/bin/sh
+# script to automatically run during startup
+# run "sudo chmod +x /etc/rc.local" after placing it in /etc
+yes | sudo apt-get update
+yes | sudo apt-get upgrade
+cd ~/bwsi-uav/catkin_ws/src/aero_control
+git pull origin master
+cd ~/bwsi-uav/documents
+git pull origin master
+cd ~/bwsi-uav/laboratory
+git pull origin master
+exit 0
